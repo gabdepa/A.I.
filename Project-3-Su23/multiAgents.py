@@ -311,8 +311,8 @@ def betterEvaluationFunction(currentGameState: GameState):
     return (currentGameState.getScore() +
             (10.0 / (minFoodDist + 1)) +
             ghostFactor -
-            (2 * remainingFood) -
-            (5 * remainingCapsules))
+            (3 * remainingFood) -
+            (3 * remainingCapsules))
 
 
 # Abbreviation
